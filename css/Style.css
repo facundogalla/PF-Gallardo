@@ -133,6 +133,81 @@ background-color: rgba(222, 184, 135, 0.604);
 }
 
 
+/*Sector de galeria en el index*/
+
+.galeria-titulo{
+    text-align: center;
+}
+
+#galeriafotos{
+    display: grid;
+    grid-template-areas:
+    "foto1 foto1 foto2 foto2 foto2"
+    "foto3 foto4 foto5 foto6 foto7"
+    "foto8 foto8 foto9 foto9 foto10"
+    "foto8 foto8 foto9 foto9 foto10" ;
+    margin: 20px auto;
+}
+
+.foto1, .foto2, .foto3, .foto4, .foto5, .foto6, .foto7, .foto8, .foto9, .foto10{
+    max-width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: solid black 1px;
+}
+
+.foto1{
+    background-image: url(../imagenes/foto1.jpg);
+    grid-area: foto1;
+}
+
+.foto2{
+    background-image: url(../imagenes/foto_2.jpg);
+    grid-area: foto2;
+}
+
+.foto3{
+    background-image: url(../imagenes/foto_3.JPEG);
+    grid-area: foto3;
+}
+
+.foto4{
+    background-image: url(../imagenes/fofo_4.JPEG);
+    grid-area: foto4;
+}
+
+.foto5{
+    background-image: url(../imagenes/foto_5.jpg);
+    grid-area: foto5;
+}
+
+.foto6{
+    background-image: url(../imagenes/fotos_6.jpg);
+    grid-area: foto6;
+}
+
+.foto7{
+    background-image: url(../imagenes/foto_7.jpg);
+    grid-area: foto7;
+}
+
+.foto8{
+    background-image: url(../imagenes/foto_8.jpg);
+    grid-area: foto8;
+}
+
+.foto9{
+    background-image: url(../imagenes/foto_9.jpg);
+    grid-area: foto9;
+}
+
+.foto10{
+    background-image: url(../imagenes/foto10.jpg);
+    grid-area: foto10;
+}
+
 /*sector de mail de preguntas*/
 
 .preg-uno{
@@ -143,6 +218,7 @@ background-color: rgba(222, 184, 135, 0.604);
 .div-Dos{
     display: flex;
     justify-content: center;
+    margin: 20px auto;
 }
 
 .div-pregdos{
@@ -243,4 +319,27 @@ footer{
 .bi-whatsapp{
     color: greenyellow;
     font-size: 5rem;
+}
+
+
+@media ((max-width: 500px)) {
+    #galeriafotos {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .mas-vendidos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .div-pregdos{
+        width: 100px;
+        height: 200px;
+    }
+    .img-preg{
+        width: 80px;
+        height: 80px;
+    }
+
 }
