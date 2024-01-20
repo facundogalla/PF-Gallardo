@@ -1,0 +1,28 @@
+
+
+/*estilo caja preguntas*/
+
+.preguntas{
+    h2{
+        font-size: 2.5rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+}
+ 
+/*estilo de caja contacto*/
+
+.box-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.datos-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

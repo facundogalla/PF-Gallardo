@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="css/Style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body id="colorfondo">
@@ -46,7 +47,7 @@
             <!--Mates y productos-->
             <div class="mas-vendidos">
                <div class="producto1"> 
-                 <img class="producto" src="./imagenes/impnegro.jpg" alt="mate imperial negro">
+                 <img  class="producto" src="./imagenes/impnegro.jpg" alt="mate imperial negro">
                  <p>Mate mas Vendido</p>
                  <p>$15000</p>
                  <button class="btn btn-primary" type="submit">Comprar</button>
@@ -68,26 +69,25 @@
          
         <!--Descripcion de porque nosotros-->
         <section>
-            <h3 class="preg-uno">¿Porque elegirnos?</h3>
-            <!--Las mismas preguntas y respuestas que la pagina-->
-            <div class="div-Dos">
-                <div class="div-pregdos">
-                    <img class="img-preg" src="./imagenes/logoimagenexpress.png" alt="logo envio express">
-                    <h3 >Envios Rapidos</h3>
-                    <p>envios rapidos a todo el pais en 24hs</p>
+                <h3 class="preg-uno">¿Porque elegirnos?</h3>
+                <!--Las mismas preguntas y respuestas que la pagina-->
+                <div class="div-Dos" data-aos="zoom-in">
+                    <div class="div-pregdos" >
+                        <img class="img-preg" src="./imagenes/logoimagenexpress.png" alt="logo envio express">
+                        <h3 >Envios Rapidos</h3>
+                        <p>envios rapidos a todo el pais en 24hs</p>
+                    </div>
+                    <div class="div-pregdos">
+                        <img class="img-preg" src="./imagenes/logomate.jpg" alt="logo mate">
+                        <h3 >Mates caseros</h3>
+                        <p>Mates 100% caseros y de la mejor claidad</p>
+                    </div>
+                    <div class="div-pregdos">
+                        <img class="img-preg" src="./imagenes/logodedinero.jpg" alt="">
+                        <h3>Mejor precio-calidad</h3>
+                        <p>Los mejores mates con precio y calidad</p>
+                    </div>
                 </div>
-                <div class="div-pregdos">
-                    <img class="img-preg" src="./imagenes/logomate.jpg" alt="logo mate">
-                    <h3 >Mates caseros</h3>
-                    <p>Mates 100% caseros y de la mejor claidad</p>
-                </div>
-                <div class="div-pregdos">
-                    <img class="img-preg" src="./imagenes/logodedinero.jpg" alt="">
-                    <h3>Mejor precio-calidad</h3>
-                    <p>Los mejores mates con precio y calidad</p>
-                </div>
-            </div>
-            
         </section>
 
         <section>
@@ -137,6 +137,9 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
 
