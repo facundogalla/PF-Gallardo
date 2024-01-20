@@ -5,7 +5,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,700&family=Oswald&display=swap");
 /*font-family: 'Nunito Sans', sans-serif;
 font-family: 'Oswald', sans-serif;*/
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,700&family=Oswald&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -55,6 +54,7 @@ header {
   background-color: #D0F288;
   position: sticky;
   top: 0;
+  z-index: 100;
 }
 header ul {
   height: 100%;
@@ -309,148 +309,10 @@ main h1 {
   align-items: center;
 }
 
-/*#D0F288  header
-#F8FFD2   main
-#8ADAB2   fotter
-*/
-/*font-family: 'Nunito Sans', sans-serif;
-font-family: 'Oswald', sans-serif;*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-family: "Nunito Sans", sans-serif;
-  font-family: "Oswald", sans-serif;
-  font-size: 62.5%; /*1 rem = 10 px*/
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-#colorfondo {
-  background-color: #eefaa8;
-}
-
-h1 {
-  font-size: 4rem;
-}
-
-h2 {
-  font-size: 3rem;
-}
-
-h3 {
-  font-size: 2rem;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-li {
-  list-style: none;
-  font-size: 1.5rem;
-}
-
-/*estilos y position de header*/
-header {
-  background-color: #D0F288;
-  position: sticky;
-  top: 0;
-}
-header ul {
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  margin-left: 8px;
-  margin-right: 8px;
-}
-
-.navbar-nav {
-  font-size: 2rem;
-}
-
-.nav-link {
-  margin-left: 15px;
-}
-
-.logoheader {
-  height: 70px;
-  width: 70px;
-}
-
-nav {
-  width: 100%;
-}
-
-footer {
-  background-color: #8ADAB2;
-  display: flex;
-  margin-top: auto;
-  flex-direction: row;
-  justify-content: end;
+/*estilo caja productos*/
+.titulo-mate {
   text-align: center;
-  font-size: 2rem;
-  padding: 10px 25px;
-}
-
-.logoredes {
-  height: 50px;
-  width: 50px;
-}
-
-.footer-main {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-}
-
-/*simbolo face*/
-.bi-facebook {
-  color: blue;
-  font-size: 5rem;
-}
-
-/*logo instagram*/
-.bi-instagram {
-  color: blueviolet;
-  font-size: 5rem;
-}
-
-/*simbolo wpp*/
-.bi-whatsapp {
-  color: greenyellow;
-  font-size: 5rem;
-}
-
-@media ((max-width: 500px)) {
-  #galeriafotos {
-    display: flex;
-    flex-direction: column;
-  }
-  .mas-vendidos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .div-pregdos {
-    width: 100px;
-    height: 200px;
-  }
-  .img-preg {
-    width: 80px;
-    height: 80px;
-  }
+  margin: 15px auto;
 }
 
 /*# sourceMappingURL=style.css.map */
