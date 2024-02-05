@@ -315,4 +315,81 @@ main h1 {
   margin: 15px auto;
 }
 
+.main-carrito {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.celda-producto {
+  display: flex;
+  justify-content: flex-start;
+  border: solid 2px black;
+}
+.celda-producto img {
+  height: 150px;
+  width: 150px;
+}
+
+.infocelda {
+  margin-left: 40px;
+  flex-direction: column;
+}
+
+.tabla-producto {
+  width: 100%;
+  margin: 30px 30px;
+}
+
+.celda-unidad {
+  border-top: solid 2px black;
+  border-right: solid 2px black;
+  border-bottom: solid 2px black;
+}
+
+.celda-precio {
+  border-top: solid 2px black;
+  border-right: solid 2px black;
+  border-bottom: solid 2px black;
+}
+
+.celda-producto2 {
+  display: flex;
+  justify-content: flex-start;
+  border-right: solid 2px black;
+  border-bottom: solid 2px black;
+  border-left: solid 2px black;
+}
+.celda-producto2 img {
+  height: 150px;
+  width: 150px;
+}
+
+.resumen-de-compra {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px black;
+  margin-bottom: 10px;
+}
+
+@media ((max-width: 780px)) {
+  .celda-producto img {
+    height: 75px;
+    width: 75px;
+  }
+  .celda-producto2 img {
+    height: 75px;
+    width: 75px;
+  }
+}
+@media ((max-width: 580px)) {
+  .tabla-producto {
+    width: 300px;
+    height: 400px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
